@@ -25,7 +25,7 @@ git clone https://github.com/FelipeSantanaC/cellular-automata-ufrpe
 cd <NOME_DA_PASTA_DO_PROJETO>
 ```
 
-## Criação do Ambiente Virtual
+## 2. Criação do Ambiente Virtual
 
 ### No Windows
 
@@ -41,13 +41,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-## Instalação das Dependências
+## 3. Instalação das Dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Execução do Projeto
+## 4. Execução do Projeto
 
 ```bash
 python main.py
@@ -55,4 +55,4 @@ python main.py
 
 ## Considerações Finais
 
-### Este projeto exemplifica a aplicação de autômatos celulares para modelar processos biológicos complexos, como a propagação de infecções. Além de servir como uma ferramenta didática, a simulação oferece uma base para futuras investigações e aprimoramentos na modelagem computacional de sistemas dinâmicos.
+Este projeto exemplifica a aplicação de autômatos celulares para modelar processos biológicos complexos, como a propagação de infecções. Além de servir como uma ferramenta didática, a simulação oferece uma base para futuras investigações e aprimoramentos na modelagem computacional de sistemas dinâmicos.
