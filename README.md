@@ -23,3 +23,36 @@ A implementação utiliza operações vetorizadas com NumPy para atualizar a sim
 ```bash
 git clone https://github.com/FelipeSantanaC/cellular-automata-ufrpe
 cd <NOME_DA_PASTA_DO_PROJETO>
+```
+
+## Criação do Ambiente Virtual
+
+### No Windows
+
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+### No Linux/Mac
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+## Instalação das Dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+## Execução do Projeto
+
+```bash
+python main.py
+```
+
+## Considerações Finais
+
+### Este projeto exemplifica a aplicação de autômatos celulares para modelar processos biológicos complexos, como a propagação de infecções. Além de servir como uma ferramenta didática, a simulação oferece uma base para futuras investigações e aprimoramentos na modelagem computacional de sistemas dinâmicos.
